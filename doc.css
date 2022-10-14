@@ -20,6 +20,7 @@ nav {
     display: flex;
     justify-content: center;
     position: fixed;
+    z-index: 1;
 }
 
 .nav-bar {
@@ -264,7 +265,7 @@ nav {
     border-radius: 0;
 
     text-decoration: underline;
-    background: transparent;
+    background-color: transparent;
     color: white;
     font-size: 19.2px;
     outline: 0;
@@ -355,9 +356,8 @@ nav {
 }
 
 .grid {
-    margin: auto;
-
     width: fit-content;
+    margin: auto;
 
     display: flex;
 }
@@ -497,6 +497,7 @@ nav {
     margin: 10px;
     border: 0.1px solid #e1e0e0;
     border-radius: 6px;
+    width: 309px;
 
     overflow: hidden;
     text-decoration: none;
@@ -504,14 +505,13 @@ nav {
 }
 
 .office img {
-    width: 309px;
+    width: 100%;
+    height: 80%;
 }
 
 .office-desc {
-    height: 70px;
     width: auto;
-    padding: 20px;
-    box-sizing: border-box;
+    padding: 0 20px;
 
     display: flex;
     align-items: center;
@@ -625,3 +625,17 @@ p a:hover {
 p a {
     color: #3d83df;
 }
+
+/* }
+select {
+    width: 268px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1;
+    border: 0;
+    border-radius: 5px;
+    height: 34px;
+    background: url("./assets/images/arrow.svg") no-repeat right #ddd;
+    -webkit-appearance: none;
+    background-position-x: 244px;
+} */
